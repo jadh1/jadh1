@@ -30,19 +30,19 @@
 
 ---
 
-### 📊 Performance & Consistency Metrics
+### 📊 Performance & Consistency Metrics Console
 
 <p align="center">
-  <!-- Card 1: Consistency Streak & Activity -->
-  <a href="https://github.com/jadh1">
-    <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" width="490" alt="GitHub Consistency Streak" />
+  <!-- Wide Executive Engineering Velocity Console (Full Width 100%) -->
+  <a href="https://github.com/jadh1?tab=repositories">
+    <img src="./activity_chart.svg" width="100%" alt="Engineering Velocity & Performance Console" />
   </a>
 </p>
 
 <p align="center">
-  <!-- Card 2: Career Contribution Progression Chart -->
-  <a href="https://github.com/jadh1?tab=repositories">
-    <img src="./activity_chart.svg" width="490" alt="Career Contribution Velocity" />
+  <!-- Live Consistency Streak & Activity Card (Wide Responsive Format) -->
+  <a href="https://github.com/jadh1">
+    <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" width="750" alt="GitHub Consistency Streak" />
   </a>
 </p>
 
