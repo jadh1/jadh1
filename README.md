@@ -23,7 +23,9 @@
 
 ### 🏆 GitHub Profile Trophies & Achievements
 <p align="center">
-  <img src="./trophies.svg" width="100%" alt="Jad's GitHub Trophies" />
+  <a href="https://github.com/jadh1?tab=achievements">
+    <img src="./trophies.svg" width="100%" alt="Jad's GitHub Trophies" />
+  </a>
 </p>
 
 ---
@@ -31,23 +33,59 @@
 ### 📊 Performance & Consistency Metrics
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" height="175" alt="GitHub Streak" />
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jadh1&theme=tokyonight" height="175" alt="GitHub Profile Summary" />
+  <!-- Card 1: Consistency & Activity Streak -->
+  <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" width="480" alt="GitHub Streak Metrics" />
+</p>
+
+<p align="center">
+  <!-- Card 2: Profile Velocity & Summary Details (Exact Matching Dimensions) -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jadh1&theme=tokyonight" width="480" alt="GitHub Profile Summary" />
 </p>
 
 ---
 
-### 📈 Dynamic 3D Contribution Skyline Chart
+### 📈 Dynamic 3D Contribution Skyline
+
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Dynamic 3D Contribution Skyline" />
+  <a href="https://github.com/jadh1">
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Dynamic 3D Contribution Skyline" />
+  </a>
 </p>
+
+<!-- Interactive Dynamic Perspective Switcher -->
+<details align="center">
+  <summary><b>🔍 Click to switch 3D skyline perspectives &amp; themes</b></summary>
+  <br/>
+
+  <p align="center">
+    <b>🌌 Night Green Matrix View:</b><br/>
+    <a href="https://github.com/jadh1">
+      <img src="./profile-3d-contrib/profile-night-green.svg" width="95%" alt="Night Green Skyline" />
+    </a>
+  </p>
+
+  <p align="center">
+    <b>🧱 Isometric GitBlock Grid View:</b><br/>
+    <a href="https://github.com/jadh1">
+      <img src="./profile-3d-contrib/profile-gitblock.svg" width="95%" alt="GitBlock View" />
+    </a>
+  </p>
+
+  <p align="center">
+    <b>🍂 Seasonal Animated Growth View:</b><br/>
+    <a href="https://github.com/jadh1">
+      <img src="./profile-3d-contrib/profile-season-animate.svg" width="95%" alt="Seasonal Animated Skyline" />
+    </a>
+  </p>
+</details>
 
 ---
 
 ### 🐍 Live Contribution Activity Grid
 <p align="center">
-  <img src="./dist/github-contribution-grid-snake-dark.svg" width="100%" alt="Live Contribution Activity Snake" />
+  <a href="https://github.com/jadh1">
+    <img src="./dist/github-contribution-grid-snake-dark.svg" width="100%" alt="Live Contribution Activity Snake" />
+  </a>
 </p>
 
 ---
