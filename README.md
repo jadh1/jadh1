@@ -4,23 +4,21 @@
 ### 🚀 Software Architect • Full-Stack Engineer • Cloud Systems Builder
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Building+Scalable+Cloud+Architectures;Full-Stack+Web+%26+Distributed+Systems;Transforming+Ideas+into+High-Performance+Software;Continuous+Integration+%26+DevOps+Excellence" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Building+Scalable+Cloud+Architectures;Full-Stack+Web+%26+Distributed+Systems;Transforming+Ideas+into+High-Performance+Software;Continuous+Integration+%26+DevOps+Excellence" alt="Typing SVG" />
 </p>
 
 ---
 
-### 🏆 GitHub Profile Trophies
+### 🏆 GitHub Profile Trophies & Achievements
 <p align="center">
-  <a href="https://github.com/jadh1">
-    <img src="https://github-profile-trophy.vercel.app/?username=jadh1&theme=tokyonight&margin-w=10&margin-h=10&no-bg=true&column=6" alt="Jad's GitHub Trophies" />
-  </a>
+  <img src="./trophies.svg" width="100%" alt="Jad's GitHub Trophies" />
 </p>
 
 ---
 
-### 📈 Contribution & Activity Velocity Chart
+### 📈 Career Contribution & Activity Velocity Chart
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jadh1&theme=tokyo-night&area=true&hide_border=true&radius=12&line=38bdf8&point=818cf8&area_color=1e293b" width="95%" alt="Jad's Activity Graph Chart" />
+  <img src="./activity_chart.svg" width="100%" alt="Contribution Velocity Chart" />
 </p>
 
 ---
@@ -28,9 +26,9 @@
 ### 📊 Performance & Consistency Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jadh1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0f172a" height="175" alt="GitHub Stats" />
-  &nbsp;
   <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" height="175" alt="GitHub Streak" />
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jadh1&theme=tokyonight" height="175" alt="GitHub Profile Summary" />
 </p>
 
 ---
