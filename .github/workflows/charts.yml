@@ -1,4 +1,4 @@
-name: Dynamic Contribution Charts
+name: Dynamic Contribution Charts & Profile Metrics
 
 on:
   schedule:
@@ -19,14 +19,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 1. Generate 3D Isometric Contribution Graph
+      # 1. Generate Animated 3D Isometric Contribution Graph
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      # 2. Generate Snake Animation over live Contribution Grid
+      # 2. Generate Authenticated Profile Summary Cards
+      - name: Generate Profile Summary Cards
+        uses: vncloudtech/github-profile-summary-cards@v1.4.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 3
+          THEME: tokyonight
+
+      # 3. Generate Snake Animation over live Contribution Grid
       - name: Generate Snake Game
         uses: platane/snk/svg-only@v3
         with:
@@ -37,11 +48,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3. Commit and push all live generated SVGs
+      # 4. Commit and push all live generated SVGs
       - name: Push Dynamic SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A .
-          git diff --staged --quiet || git commit -m "chore: auto-update live contribution charts [skip ci]"
+          git diff --staged --quiet || git commit -m "chore: refresh dynamic 3D skyline, stats cards & snake [skip ci]"
           git push
