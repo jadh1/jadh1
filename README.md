@@ -48,15 +48,6 @@
 
 ---
 
-### 🐍 Live Contribution Activity Grid
-<p align="center">
-  <a href="https://github.com/jadh1">
-    <img src="./dist/github-contribution-grid-snake-dark.svg" width="100%" alt="Live Contribution Activity Snake" />
-  </a>
-</p>
-
----
-
 ### 🛠️ Tech Stack & Engineering Toolkit
 
 <p align="center">
