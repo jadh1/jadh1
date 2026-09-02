@@ -28,19 +28,26 @@
 
 ---
 
-### 📈 Career Contribution & Activity Velocity Chart
-<p align="center">
-  <img src="./activity_chart.svg" width="100%" alt="Contribution Velocity Chart" />
-</p>
-
----
-
 ### 📊 Performance & Consistency Metrics
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" height="175" alt="GitHub Streak" />
   &nbsp;
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jadh1&theme=tokyonight" height="175" alt="GitHub Profile Summary" />
+</p>
+
+---
+
+### 📈 Dynamic 3D Contribution Skyline Chart
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Dynamic 3D Contribution Skyline" />
+</p>
+
+---
+
+### 🐍 Live Contribution Activity Grid
+<p align="center">
+  <img src="./dist/github-contribution-grid-snake-dark.svg" width="100%" alt="Live Contribution Activity Snake" />
 </p>
 
 ---
