@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Jad+%F0%9F%91%8B;Software+Architect+%26+Full+Stack+Engineer;Cloud+Systems+%26+DevOps+Builder;6%2C700%2B+Contributions+%7C+135%2B+Merged+PRs" alt="Typing SVG" />
+  <img src="https://raw.githubusercontent.com/jadh1/jadh1/refs/heads/main/assets/profile.svg" alt="animated ascii profile card" width="100%" />
 </p>
 
 <br>
@@ -24,25 +24,11 @@
 
 ---
 
-<h3 align="center">🏆 Achievements & Trophies</h3>
-
-<p align="center">
-  <img src="./trophies.svg" width="100%" alt="Jad's GitHub Trophies" />
-</p>
-
-<br>
-
----
-
 <h3 align="center">Github Stats</h3>
 
 <p align="center">
   <img height="190" src="https://stats.pphat.top/languages?username=jadh1&type=card" />
   <img height="190" src="https://stats.pphat.top/languages?username=jadh1&type=pie" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" height="190" alt="GitHub Streak" />
 </p>
 
 <br>
@@ -73,7 +59,7 @@
     />
     <img
       alt="github-contribution-pacman"
-      src="./activity_chart.svg"
+      src="https://raw.githubusercontent.com/jadh1/jadh1/pacman-output/pacman-contribution-graph-dark.svg"
     />
   </picture>
 </div>
