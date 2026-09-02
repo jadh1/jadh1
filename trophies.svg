@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="850" height="140">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#FFA500" />
+      <stop offset="100%" stop-color="#FF8C00" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#7E22CE" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <style>
+    .trophy-card { fill: #0f172a; rx: 12px; stroke: #1e293b; stroke-width: 1.5; filter: url(#cardShadow); }
+    .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 700; font-size: 11px; fill: #94a3b8; text-anchor: middle; }
+    .rank { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 800; font-size: 16px; text-anchor: middle; }
+    .subtext { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 600; font-size: 10px; fill: #64748b; text-anchor: middle; }
+  </style>
+
+  <!-- Trophy 1: Commits S-Rank -->
+  <g transform="translate(10, 10)">
+    <rect class="trophy-card" width="130" height="120" />
+    <circle cx="65" cy="40" r="22" fill="#1e293b" />
+    <text x="65" y="47" font-size="22" text-anchor="middle">⚡</text>
+    <text x="65" y="78" class="title">COMMITS</text>
+    <text x="65" y="97" class="rank" fill="url(#goldGrad)">RANK S</text>
+    <text x="65" y="111" class="subtext">3,900+ Commits</text>
+  </g>
+
+  <!-- Trophy 2: Pull Shark Gold -->
+  <g transform="translate(150, 10)">
+    <rect class="trophy-card" width="130" height="120" />
+    <circle cx="65" cy="40" r="22" fill="#1e293b" />
+    <text x="65" y="47" font-size="22" text-anchor="middle">🦈</text>
+    <text x="65" y="78" class="title">PULL SHARK</text>
+    <text x="65" y="97" class="rank" fill="url(#cyanGrad)">GOLD III</text>
+    <text x="65" y="111" class="subtext">135+ Merged PRs</text>
+  </g>
+
+  <!-- Trophy 3: YOLO Master -->
+  <g transform="translate(290, 10)">
+    <rect class="trophy-card" width="130" height="120" />
+    <circle cx="65" cy="40" r="22" fill="#1e293b" />
+    <text x="65" y="47" font-size="22" text-anchor="middle">🤠</text>
+    <text x="65" y="78" class="title">YOLO</text>
+    <text x="65" y="97" class="rank" fill="url(#goldGrad)">UNLOCKED</text>
+    <text x="65" y="111" class="subtext">Zero-Review Merge</text>
+  </g>
+
+  <!-- Trophy 4: Quickdraw -->
+  <g transform="translate(430, 10)">
+    <rect class="trophy-card" width="130" height="120" />
+    <circle cx="65" cy="40" r="22" fill="#1e293b" />
+    <text x="65" y="47" font-size="22" text-anchor="middle">⚡</text>
+    <text x="65" y="78" class="title">QUICKDRAW</text>
+    <text x="65" y="97" class="rank" fill="url(#purpleGrad)">UNLOCKED</text>
+    <text x="65" y="111" class="subtext">Instant Issue Close</text>
+  </g>
+
+  <!-- Trophy 5: Pair Extraordinaire -->
+  <g transform="translate(570, 10)">
+    <rect class="trophy-card" width="130" height="120" />
+    <circle cx="65" cy="40" r="22" fill="#1e293b" />
+    <text x="65" y="47" font-size="22" text-anchor="middle">👯</text>
+    <text x="65" y="78" class="title">PAIR EXTRA</text>
+    <text x="65" y="97" class="rank" fill="url(#emeraldGrad)">UNLOCKED</text>
+    <text x="65" y="111" class="subtext">Co-Authored Merges</text>
+  </g>
+
+  <!-- Trophy 6: Consistency Streak -->
+  <g transform="translate(710, 10)">
+    <rect class="trophy-card" width="130" height="120" />
+    <circle cx="65" cy="40" r="22" fill="#1e293b" />
+    <text x="65" y="47" font-size="22" text-anchor="middle">🔥</text>
+    <text x="65" y="78" class="title">ACTIVE DAYS</text>
+    <text x="65" y="97" class="rank" fill="url(#goldGrad)">RANK S</text>
+    <text x="65" y="111" class="subtext">6,750+ Activity</text>
+  </g>
+</svg>
