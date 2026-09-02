@@ -1,68 +1,132 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="850" height="260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 340" width="100%" height="100%">
   <defs>
-    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080e1e" />
+    </linearGradient>
+
+    <!-- Curve Area Gradient -->
+    <linearGradient id="areaGlow" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#818cf8" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+
+    <!-- Stroke Gradient -->
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#818cf8"/>
-      <stop offset="50%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#34d399"/>
+      <stop offset="30%" stop-color="#38bdf8"/>
+      <stop offset="70%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#a7f3d0"/>
     </linearGradient>
-    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+
+    <!-- KPI Box Gradients -->
+    <linearGradient id="kpiGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <filter id="consoleShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
 
   <style>
-    .bg-card { fill: #0f172a; stroke: #1e293b; stroke-width: 1.5; rx: 16px; filter: url(#shadow); }
+    .card-bg { fill: url(#bgGrad); stroke: #1e293b; stroke-width: 1.5; rx: 16px; filter: url(#consoleShadow); }
+    .kpi-box { fill: url(#kpiGrad1); stroke: #334155; stroke-width: 1; rx: 10px; }
     .grid-line { stroke: #1e293b; stroke-dasharray: 4,4; stroke-width: 1; }
-    .label { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600; text-anchor: middle; }
-    .chart-title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 15px; fill: #f8fafc; font-weight: 700; }
-    .chart-subtitle { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 11px; fill: #94a3b8; }
-    .stat-val { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 16px; font-weight: 800; fill: #38bdf8; }
-    .point { fill: #0f172a; stroke: #38bdf8; stroke-width: 3; }
+    .title { font-family: 'Segoe UI', Ubuntu, -apple-system, sans-serif; font-size: 16px; fill: #f8fafc; font-weight: 800; letter-spacing: 0.5px; }
+    .subtitle { font-family: 'Segoe UI', Ubuntu, -apple-system, sans-serif; font-size: 12px; fill: #94a3b8; font-weight: 500; }
+    .kpi-title { font-family: 'Segoe UI', Ubuntu, -apple-system, sans-serif; font-size: 10px; fill: #64748b; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+    .kpi-val { font-family: 'Segoe UI', Ubuntu, -apple-system, sans-serif; font-size: 15px; font-weight: 800; }
+    .axis-label { font-family: 'Segoe UI', Ubuntu, -apple-system, sans-serif; font-size: 11px; fill: #64748b; font-weight: 600; text-anchor: middle; }
+    .node-point { fill: #0f172a; stroke: #38bdf8; stroke-width: 3.5; }
+    .node-point-active { fill: #34d399; stroke: #ffffff; stroke-width: 2.5; filter: url(#glow); }
   </style>
 
-  <!-- Background -->
-  <rect width="850" height="260" class="bg-card" />
+  <!-- Console Container Frame -->
+  <rect width="950" height="340" class="card-bg" />
 
-  <!-- Header -->
-  <text x="30" y="38" class="chart-title">📈 Career Contribution &amp; Activity Velocity</text>
-  <text x="30" y="55" class="chart-subtitle">Progressive Software Architecture &amp; Full-Stack Progression (2021 — 2026)</text>
-  
-  <text x="730" y="38" class="label" style="text-anchor: end;">Total Volume</text>
-  <text x="730" y="57" class="stat-val" style="text-anchor: end;">3,931 Commits • 135 PRs</text>
+  <!-- Top Header Bar -->
+  <g transform="translate(30, 24)">
+    <circle cx="6" cy="10" r="4" fill="#38bdf8" />
+    <text x="18" y="15" class="title">ENGINEERING VELOCITY &amp; CONTRIBUTION METRICS</text>
+    <text x="18" y="32" class="subtitle">Multi-Year Architectural Growth &amp; Development Pacing (2021 — 2026)</text>
+  </g>
 
-  <!-- Horizontal Grid Lines -->
-  <line x1="60" y1="90" x2="790" y2="90" class="grid-line" />
-  <line x1="60" y1="130" x2="790" y2="130" class="grid-line" />
-  <line x1="60" y1="170" x2="790" y2="170" class="grid-line" />
-  <line x1="60" y1="210" x2="790" y2="210" class="grid-line" />
+  <!-- Top KPI Indicator Badges -->
+  <g transform="translate(540, 18)">
+    <!-- KPI 1 -->
+    <rect x="0" y="0" width="120" height="46" class="kpi-box" />
+    <text x="60" y="18" class="kpi-title" text-anchor="middle">TOTAL COMMITS</text>
+    <text x="60" y="36" class="kpi-val" fill="#38bdf8" text-anchor="middle">3,931+</text>
 
-  <!-- Grid Y-Labels -->
-  <text x="45" y="94" class="label" style="text-anchor: end;">1.5k</text>
-  <text x="45" y="134" class="label" style="text-anchor: end;">1.0k</text>
-  <text x="45" y="174" class="label" style="text-anchor: end;">500</text>
-  <text x="45" y="214" class="label" style="text-anchor: end;">0</text>
+    <!-- KPI 2 -->
+    <rect x="130" y="0" width="120" height="46" class="kpi-box" />
+    <text x="190" y="18" class="kpi-title" text-anchor="middle">MERGED PRS</text>
+    <text x="190" y="36" class="kpi-val" fill="#34d399" text-anchor="middle">135+ (Gold III)</text>
 
-  <!-- Chart Curve & Fill -->
-  <path d="M 110 195 C 170 190, 190 183, 230 180 C 290 175, 310 165, 360 160 C 420 152, 440 132, 490 125 C 550 115, 570 100, 620 95 C 670 90, 700 86, 740 85 L 740 210 L 110 210 Z" fill="url(#areaGrad)" />
-  <path d="M 110 195 C 170 190, 190 183, 230 180 C 290 175, 310 165, 360 160 C 420 152, 440 132, 490 125 C 550 115, 570 100, 620 95 C 670 90, 700 86, 740 85" fill="none" stroke="url(#lineGrad)" stroke-width="3.5" stroke-linecap="round" />
+    <!-- KPI 3 -->
+    <rect x="260" y="0" width="120" height="46" class="kpi-box" />
+    <text x="320" y="18" class="kpi-title" text-anchor="middle">TOTAL ACTIVITY</text>
+    <text x="320" y="36" class="kpi-val" fill="#ffd166" text-anchor="middle">6,750+ Pts</text>
+  </g>
 
-  <!-- Points & Nodes -->
-  <circle cx="110" cy="195" r="5" class="point" />
-  <circle cx="230" cy="180" r="5" class="point" />
-  <circle cx="360" cy="160" r="5" class="point" />
-  <circle cx="490" cy="125" r="5" class="point" />
-  <circle cx="620" cy="95" r="5" class="point" />
-  <circle cx="740" cy="85" r="6" class="point" stroke="#34d399" />
+  <!-- Horizontal Measurement Grid -->
+  <line x1="70" y1="110" x2="890" y2="110" class="grid-line" />
+  <line x1="70" y1="160" x2="890" y2="160" class="grid-line" />
+  <line x1="70" y1="210" x2="890" y2="210" class="grid-line" />
+  <line x1="70" y1="260" x2="890" y2="260" class="grid-line" />
 
-  <!-- Bottom Year Labels -->
-  <text x="110" y="235" class="label">2021</text>
-  <text x="230" y="235" class="label">2022</text>
-  <text x="360" y="235" class="label">2023</text>
-  <text x="490" y="235" class="label">2024</text>
-  <text x="620" y="235" class="label">2025</text>
-  <text x="740" y="235" class="label" fill="#38bdf8" font-weight="700">2026 (Current)</text>
+  <!-- Y-Axis Scale -->
+  <text x="50" y="114" class="axis-label" style="text-anchor: end;">1.5k</text>
+  <text x="50" y="164" class="axis-label" style="text-anchor: end;">1.0k</text>
+  <text x="50" y="214" class="axis-label" style="text-anchor: end;">500</text>
+  <text x="50" y="264" class="axis-label" style="text-anchor: end;">0</text>
+
+  <!-- Main Smooth Velocity Curve & Area Fill -->
+  <!-- Anchors: 2021(130, 245), 2022(280, 230), 2023(430, 205), 2024(580, 160), 2025(730, 125), 2026(860, 105) -->
+  <path d="M 130 245 C 200 240, 230 234, 280 230 C 350 224, 380 212, 430 205 C 500 195, 530 170, 580 160 C 650 146, 680 132, 730 125 C 790 116, 820 108, 860 105 L 860 260 L 130 260 Z" fill="url(#areaGlow)" />
+  <path d="M 130 245 C 200 240, 230 234, 280 230 C 350 224, 380 212, 430 205 C 500 195, 530 170, 580 160 C 650 146, 680 132, 730 125 C 790 116, 820 108, 860 105" fill="none" stroke="url(#strokeGrad)" stroke-width="4.5" stroke-linecap="round" filter="url(#glow)" />
+
+  <!-- Data Nodes -->
+  <circle cx="130" cy="245" r="5.5" class="node-point" />
+  <circle cx="280" cy="230" r="5.5" class="node-point" />
+  <circle cx="430" cy="205" r="5.5" class="node-point" />
+  <circle cx="580" cy="160" r="6" class="node-point" />
+  <circle cx="730" cy="125" r="6" class="node-point" />
+  <circle cx="860" cy="105" r="7.5" class="node-point-active" />
+
+  <!-- Milestone Badges on Nodes -->
+  <text x="130" y="235" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="10" fill="#94a3b8" font-weight="700" text-anchor="middle">~200</text>
+  <text x="280" y="220" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="10" fill="#94a3b8" font-weight="700" text-anchor="middle">~350</text>
+  <text x="430" y="195" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="10" fill="#94a3b8" font-weight="700" text-anchor="middle">~550</text>
+  <text x="580" y="148" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="10" fill="#38bdf8" font-weight="800" text-anchor="middle">~850 (Full-Stack)</text>
+  <text x="730" y="112" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="10" fill="#34d399" font-weight="800" text-anchor="middle">~1,200 (Architect)</text>
+  <text x="860" y="90" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="11" fill="#34d399" font-weight="900" text-anchor="middle">~1,300+ (Current)</text>
+
+  <!-- Bottom Timeline Labels -->
+  <text x="130" y="295" class="axis-label">2021</text>
+  <text x="130" y="310" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#475569" text-anchor="middle">Learning Phase</text>
+
+  <text x="280" y="295" class="axis-label">2022</text>
+  <text x="280" y="310" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#475569" text-anchor="middle">Cloud Engineer</text>
+
+  <text x="430" y="295" class="axis-label">2023</text>
+  <text x="430" y="310" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#475569" text-anchor="middle">Dev Transition</text>
+
+  <text x="580" y="295" class="axis-label" fill="#38bdf8" font-weight="700">2024</text>
+  <text x="580" y="310" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#38bdf8" text-anchor="middle">Pro Full-Stack</text>
+
+  <text x="730" y="295" class="axis-label" fill="#34d399" font-weight="700">2025</text>
+  <text x="730" y="310" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#34d399" text-anchor="middle">Sr Architecture</text>
+
+  <text x="860" y="295" class="axis-label" fill="#34d399" font-weight="900">2026 (Live)</text>
+  <text x="860" y="310" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#34d399" font-weight="700" text-anchor="middle">SaaS &amp; Distributed</text>
 </svg>
