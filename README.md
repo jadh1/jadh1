@@ -33,48 +33,62 @@
 ### 📊 Performance & Consistency Metrics
 
 <p align="center">
-  <!-- Card 1: Consistency & Activity Streak -->
-  <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" width="480" alt="GitHub Streak Metrics" />
+  <!-- Card 1: Consistency Streak & Activity -->
+  <a href="https://github.com/jadh1">
+    <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" width="490" alt="GitHub Consistency Streak" />
+  </a>
 </p>
 
 <p align="center">
-  <!-- Card 2: Profile Velocity & Summary Details (Exact Matching Dimensions) -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jadh1&theme=tokyonight" width="480" alt="GitHub Profile Summary" />
+  <!-- Card 2: Career Contribution Progression Chart (Exact Matching Proportions) -->
+  <a href="https://github.com/jadh1?tab=repositories">
+    <img src="./activity_chart.svg" width="490" alt="Career Contribution Velocity" />
+  </a>
 </p>
 
 ---
 
-### 📈 Dynamic 3D Contribution Skyline
+### 📈 Animated Dynamic 3D Contribution Skyline
 
 <p align="center">
-  <a href="https://github.com/jadh1">
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Dynamic 3D Contribution Skyline" />
+  <a href="https://skyline.github.com/jadh1/2026" title="Launch Interactive 3D WebGL Skyline City">
+    <img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="Animated Glowing 3D Skyline" />
   </a>
 </p>
 
-<!-- Interactive Dynamic Perspective Switcher -->
+<p align="center">
+  <a href="https://skyline.github.com/jadh1/2026">
+    <img src="https://img.shields.io/badge/🏙️_Launch_Interactive_3D_WebGL_City-0f172a?style=for-the-badge&logo=three.js&logoColor=38bdf8&labelColor=0f172a&color=1e293b" alt="Launch 3D WebGL City" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/jadh1?tab=overview&from=2026-01-01">
+    <img src="https://img.shields.io/badge/📊_Explore_Live_Commit_History-0f172a?style=for-the-badge&logo=git&logoColor=34d399&labelColor=0f172a&color=1e293b" alt="Explore Live Commits" />
+  </a>
+</p>
+
+<!-- Perspective Switcher -->
 <details align="center">
-  <summary><b>🔍 Click to switch 3D skyline perspectives &amp; themes</b></summary>
+  <summary><b>🔍 Click to switch 3D skyline themes &amp; perspectives</b></summary>
   <br/>
 
   <p align="center">
-    <b>🌌 Night Green Matrix View:</b><br/>
-    <a href="https://github.com/jadh1">
+    <b>🌈 Night Rainbow 3D Skyline:</b><br/>
+    <a href="https://skyline.github.com/jadh1/2026">
+      <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="95%" alt="Night Rainbow Skyline" />
+    </a>
+  </p>
+
+  <p align="center">
+    <b>🌌 Night Green 3D Matrix:</b><br/>
+    <a href="https://skyline.github.com/jadh1/2026">
       <img src="./profile-3d-contrib/profile-night-green.svg" width="95%" alt="Night Green Skyline" />
     </a>
   </p>
 
   <p align="center">
-    <b>🧱 Isometric GitBlock Grid View:</b><br/>
-    <a href="https://github.com/jadh1">
+    <b>🧱 Isometric GitBlock Grid:</b><br/>
+    <a href="https://skyline.github.com/jadh1/2026">
       <img src="./profile-3d-contrib/profile-gitblock.svg" width="95%" alt="GitBlock View" />
-    </a>
-  </p>
-
-  <p align="center">
-    <b>🍂 Seasonal Animated Growth View:</b><br/>
-    <a href="https://github.com/jadh1">
-      <img src="./profile-3d-contrib/profile-season-animate.svg" width="95%" alt="Seasonal Animated Skyline" />
     </a>
   </p>
 </details>
