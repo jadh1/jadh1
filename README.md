@@ -4,46 +4,33 @@
 ### 🚀 Software Architect • Full-Stack Engineer • Cloud Systems Builder
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Building+Scalable+Cloud+Architectures;Full-Stack+Web+%26+Distributed+Systems;Transforming+Ideas+into+High-Performance+Software;Continuous+Integration+%26+DevOps+Excellence" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Building+Scalable+Cloud+Architectures;Full-Stack+Web+%26+Distributed+Systems;Transforming+Ideas+into+High-Performance+Software;Continuous+Integration+%26+DevOps+Excellence" alt="Typing SVG" />
 </p>
 
+---
+
+### 🏆 GitHub Profile Trophies
 <p align="center">
   <a href="https://github.com/jadh1">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="mailto:jad.haidar.ahmad315@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/jad-haidar-/">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=jadh1&theme=tokyonight&margin-w=10&margin-h=10&no-bg=true&column=6" alt="Jad's GitHub Trophies" />
   </a>
 </p>
 
 ---
 
-### 🏆 GitHub Profile Trophies & Achievements
+### 📈 Contribution & Activity Velocity Chart
 <p align="center">
-  <a href="https://github.com/jadh1?tab=achievements">
-    <img src="./trophies.svg" width="100%" alt="Jad's GitHub Trophies" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jadh1&theme=tokyo-night&area=true&hide_border=true&radius=12&line=38bdf8&point=818cf8&area_color=1e293b" width="95%" alt="Jad's Activity Graph Chart" />
 </p>
 
 ---
 
-### 📊 Performance & Consistency Metrics Console
+### 📊 Performance & Consistency Metrics
 
 <p align="center">
-  <!-- Wide Executive Engineering Velocity Console (Full Width 100%) -->
-  <a href="https://github.com/jadh1?tab=repositories">
-    <img src="./activity_chart.svg" width="100%" alt="Engineering Velocity & Performance Console" />
-  </a>
-</p>
-
-<p align="center">
-  <!-- Live Consistency Streak & Activity Card (Wide Responsive Format) -->
-  <a href="https://github.com/jadh1">
-    <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" width="750" alt="GitHub Consistency Streak" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=jadh1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0f172a" height="175" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://streak-stats.demolab.com/?user=jadh1&theme=tokyonight&hide_border=true&fire=38bdf8&ring=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0f172a" height="175" alt="GitHub Streak" />
 </p>
 
 ---
@@ -77,7 +64,7 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jadh1&label=Profile%20Views&color=38bdf8&style=flat-square" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=jadh1&amp;label=Profile+Views&amp;color=38bdf8&amp;style=flat-square" alt="Profile Views" />
 </p>
 
 </div>
